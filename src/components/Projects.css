@@ -1,0 +1,9 @@
+.card.active-card {
+  background-color: #f4d6c0; /* light blue */
+  border-bottom: 3px solid #3b8be0;
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Website",
+    "description": "A simple e-commerce site built with React and Tailwind.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "title": "Blog App",
+    "description": "A blogging platform with React.",
+    "image": "https://via.placeholder.com/150"
+  }
+]
