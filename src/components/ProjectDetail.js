@@ -15,7 +15,7 @@ function ProjectDetail() {
           label: "Demo 3",
           url: "https://blue-stork-220806.hostingersite.com/",
         },
-        { label: "Demo 4", url: "https://tan-tapir-767241.hostingersite.com/" },
+        { label: "Reactjs-doctor_app", url: "https://doctors-online.netlify.app/" },
       ],
     },
     2: {
@@ -23,7 +23,7 @@ function ProjectDetail() {
       description: "Detailed info about the CRM Software project.",
       links: [
         { label: "Demo 1", url: "https://webnsoftwaretest1.online/index.php" },
-        { label: "GitHub Repo", url: "https://github.com/username/project2" },
+        // { label: "GitHub Repo", url: "https://github.com/username/project2" },
       ],
     },
     3: {
