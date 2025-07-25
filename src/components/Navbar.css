@@ -6,8 +6,9 @@
 
 /* When scrolled: background black and link white */
 .navbar.scrolled {
-  background-color: #000000 !important;
+  background-color: #7bbdc3 !important;
   transition: background-color 0.3s ease;
+  color: #ffffff;
 }
 
 /* Default nav link */
@@ -22,9 +23,18 @@
 }
 
 /* Active or hover effect in scrolled mode */
-.navbar.scrolled .nav-link:hover,
-.navbar.scrolled .nav-link.active {
-  color: #0d6efd;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
+.active {
+  background-color: rgb(237, 146, 146) !important;
+  color: white !important;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+
 }
+
+.navbar-nav .nav-link.active {
+  background-color: #6197e9; /* Bootstrap primary color */
+  color: white !important;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
