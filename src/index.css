@@ -1,20 +1,40 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-html {
-  scroll-behavior: smooth;
+/* Default navbar styles */
+.navbar {
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* When scrolled: background black and link white */
+.navbar.scrolled {
+  background-color: #7bbdc3 !important;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Default nav link */
+.navbar .nav-link {
+  color: #333;
+  transition: all 0.3s ease;
 }
+
+/* On scroll - link becomes white */
+.navbar.scrolled .nav-link {
+  color: #ffffff !important;
+}
+
+/* Active or hover effect in scrolled mode */
+.active {
+  background-color: rgb(237, 146, 146) !important;
+  color: white !important;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #6197e9; /* Bootstrap primary color */
+  color: white !important;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
