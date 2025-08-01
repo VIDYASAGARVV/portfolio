@@ -14,13 +14,13 @@ function Projects() {
       <div className="container">
         <h2 className="mb-4">Projects</h2>
         <div className="row">
-          <div className="col-md-3 mb-3">
+          <div className="col-md-4 mb-3">
             <Link
               to="/projects/1"
               className="text-decoration-none text-dark"
               onClick={() => handleCardClick(1)}
             >
-              <div className={`card h-100 ${activeCard === 2 ? 'active-card' : ''}`}>
+              <div className={`card h-100 ${activeCard === 1 ? 'active-card' : ''}`}>
                 <div className="card-body">
                   <h5 className="card-title">
                     Reactjs Frontend
@@ -40,7 +40,7 @@ function Projects() {
             <Link
               to="/projects/2"
               className="text-decoration-none text-dark"
-              onClick={() => handleCardClick(1)}
+              onClick={() => handleCardClick(2)}
             >
               <div className={`card h-100 ${activeCard === 2 ? 'active-card' : ''}`}>
                 <div className="card-body">
@@ -63,7 +63,7 @@ function Projects() {
             <Link
               to="/projects/3"
               className="text-decoration-none text-dark"
-              onClick={() => handleCardClick(2)}
+              onClick={() => handleCardClick(3)}
             >
               <div className={`card h-100 ${activeCard === 3 ? 'active-card' : ''}`}>
                 <div className="card-body">
@@ -77,7 +77,7 @@ function Projects() {
             <Link
               to="/projects/4"
               className="text-decoration-none text-dark"
-              onClick={() => handleCardClick(3)}
+              onClick={() => handleCardClick(4)}
             >
               <div className={`card h-100 ${activeCard === 4 ? 'active-card' : ''}`}>
                 <div className="card-body">
