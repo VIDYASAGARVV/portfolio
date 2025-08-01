@@ -5,7 +5,16 @@ function ProjectDetail() {
   const { id } = useParams();
 
   const projectData = {
-    1: {
+     1: {
+      title: "Reactjs Frontend",
+      description: "Detailed info about the Reactjs Frontend Design.",
+      links: [
+        { label: "Edu Center", url: "https://trainingcenters.netlify.app/" },
+      
+        { label: "Reactjs-doctor_app", url: "https://doctors-online.netlify.app/" },
+      ],
+    },
+    2: {
       title: "Dynamic Websites",
       description: "Detailed info about the Dynamic Websites project(PHP).",
       links: [
@@ -15,10 +24,9 @@ function ProjectDetail() {
           label: "Demo 3",
           url: "https://blue-stork-220806.hostingersite.com/",
         },
-        { label: "Reactjs-doctor_app", url: "https://doctors-online.netlify.app/" },
       ],
     },
-    2: {
+    3: {
       title: "CRM Software",
       description: "Detailed info about the CRM Software project.",
       links: [
@@ -26,7 +34,7 @@ function ProjectDetail() {
         // { label: "GitHub Repo", url: "https://github.com/username/project2" },
       ],
     },
-    3: {
+    4: {
       title: "NXTwave Internship",
       description:
         "Detailed info about the Static,Responsive,Dynamic,React.js.",
