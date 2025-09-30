@@ -6,7 +6,7 @@ function ProjectDetail() {
 
   const projectData = {
     1: {
-      title: "Reactjs Frontend",
+      title: "Reactjs Frontend (Chat-Gpt)",
       description: "Detailed info about the Reactjs Frontend Design.",
       links: [
       
@@ -35,32 +35,9 @@ function ProjectDetail() {
         { label: "Demo 3", url: "https://blue-stork-220806.hostingersite.com/" },
       ],
     },
-    3: {
-      title: "CRM Software",
-      description: "Detailed info about the CRM Software project.",
-      links: [{ label: "Demo 1", url: "https://webnsoftwaretest1.online/index.php" }],
-    },
-     1: {
-      title: "Reactjs Frontend",
-      description: "Detailed info about the Reactjs Frontend Design.",
-      links: [
-        { label: "Edu Center", url: "https://trainingcenters.netlify.app/" },
-      
-        { label: "Reactjs-doctor_app", url: "https://doctors-online.netlify.app/" },
-      ],
-    },
-    2: {
-      title: "Dynamic Websites",
-      description: "Detailed info about the Dynamic Websites project(PHP).",
-      links: [
-        { label: "Demo 1", url: "https://prdvandco.com/" },
-        { label: "Demo 2", url: "https://reenterprise.co.in/" },
-        {
-          label: "Demo 3",
-          url: "https://blue-stork-220806.hostingersite.com/",
-        },
-      ],
-    },
+   
+
+   
     3: {
       title: "CRM Software",
       description: "Detailed info about the CRM Software project.",
