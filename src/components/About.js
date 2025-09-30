@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Linker } from "./../../node_modules/@tsparticles/interaction-particles-links/browser/Linker";
 
 function About() {
   return (

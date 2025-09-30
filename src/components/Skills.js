@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Skills() {
-  const skills = ['HTML','CSS','JavaScript','React.js', 'Bootstrap 5', 'Node.js','PHP','Laravel11', 'MongoDB', 'Git', 'REST APIs'];
+  const skills = ['HTML','CSS','JavaScript','React.js','Next.js','Tailwind Css', 'SEO', 'Bootstrap 5', 'Node.js','PHP','Laravel11', 'MongoDB', 'Git', 'REST APIs','Social Media Management'];
 
   return (
     <section id="skills" className="py-5 bg-white">
