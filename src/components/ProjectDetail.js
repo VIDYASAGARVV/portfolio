@@ -5,7 +5,6 @@ function ProjectDetail() {
   const { id } = useParams();
 
   const projectData = {
-<<<<<<< HEAD
     1: {
       title: "Reactjs Frontend",
       description: "Detailed info about the Reactjs Frontend Design.",
@@ -41,7 +40,6 @@ function ProjectDetail() {
       description: "Detailed info about the CRM Software project.",
       links: [{ label: "Demo 1", url: "https://webnsoftwaretest1.online/index.php" }],
     },
-=======
      1: {
       title: "Reactjs Frontend",
       description: "Detailed info about the Reactjs Frontend Design.",
@@ -71,7 +69,6 @@ function ProjectDetail() {
         // { label: "GitHub Repo", url: "https://github.com/username/project2" },
       ],
     },
->>>>>>> c1367a6b97068240b2d46e999f36a3b00656c47f
     4: {
       title: "NXTwave Internship",
       description: "Detailed info about Static, Responsive, Dynamic, React.js.",

@@ -22,7 +22,7 @@ function Projects() {
   return (
     <section id="projects" className="py-5 bg-light">
       <div className="container">
-<<<<<<< HEAD
+
         <h2 className="mb-5 text-center fw-bold">🚀 My Projects</h2>
         <div className="row g-4">
           {projectList.map((project) => (
@@ -121,8 +121,8 @@ function Projects() {
               </div>
             </Link>
           </div>
->>>>>>> c1367a6b97068240b2d46e999f36a3b00656c47f
         </div>
+      </div>
       </div>
       <div className='h-50'></div>
     </section>

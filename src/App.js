@@ -13,19 +13,17 @@ function App() {
     <>
       <Navbar />
 
-    
-
       {/* Main scrolling single-page sections */}
       <main>
         <Home />
         <About />
         <Skills />
         <Projects />
-          {/* Define route for detailed project view */}
-      <Routes>
-        <Route path="/projects/:id" element={<ProjectDetail />} />
-        {/* You can add other pages here later if needed */}
-      </Routes>
+        {/* Define route for detailed project view */}
+        <Routes>
+          <Route path="/projects/:id" element={<ProjectDetail />} />
+          {/* You can add other pages here later if needed */}
+        </Routes>
         <Contact />
       </main>
     </>
