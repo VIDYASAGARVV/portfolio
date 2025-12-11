@@ -1,59 +1,54 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 
-function Home() {
+export default function Home() {
   useEffect(() => {
-    // Parallax mouse effect
     const handleMouseMove = (e) => {
-      const symbols = document.querySelectorAll(".symbols span");
-      const x = (e.clientX / window.innerWidth - 0.5) * 30;
-      const y = (e.clientY / window.innerHeight - 0.5) * 30;
+      const layers = document.querySelectorAll(".parallax-img");
 
-      symbols.forEach((symbol, index) => {
-        const speed = (index + 1) * 0.5;
-        symbol.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
+      layers.forEach((layer) => {
+        const speed = layer.getAttribute("data-speed");
+        const x = (window.innerWidth / 2 - e.clientX) * speed;
+        const y = (window.innerHeight / 2 - e.clientY) * speed;
+
+        layer.style.transform = `translate(${x}px, ${y}px)`;
       });
     };
 
-    // Scroll reveal effect
-    const handleScroll = () => {
+    const reveal = () => {
       const content = document.querySelector(".home-content");
-      const scrollY = window.scrollY;
-
-      if (scrollY < window.innerHeight / 1.5) {
+      if (window.scrollY < window.innerHeight / 1.3) {
         content.classList.add("show");
       }
     };
 
     window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", reveal);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", reveal);
     };
   }, []);
 
   return (
-    <section id="home" className="home-section">
-      {/* Floating coding symbols */}
-      <div className="symbols">
-        <span>{`</>`}</span>
-        <span>{`{}`}</span>
-        <span>{`;`}</span>
-        <span>{`<div>`}</span>
-        <span>{`</body>`}</span>
+    <section className="hero">
+      {/* BACKGROUND GLOW */}
+      <div className="bg-glow"></div>
+
+      {/* PARALLAX IMAGES */}
+      <div className="floating-images">
+        <img src="https://th.bing.com/th/id/OIP.DD3Hd27Mq75JFUs_gehSCQHaE8?w=295&h=196&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" className="parallax-img" alt="code.jpg" data-speed="0.02" />
+        <img src="https://reactnative.dev/img/logo-og.png" className="parallax-img" data-speed="0.04" alt="react.jpg" />
+        <img src="https://www.kindpng.com/picc/m/171-1718210_html-dialog-element-taking-full-advantage-of-javascript.png" alt="js.jpg" className="parallax-img" data-speed="0.06" />
+        <img src="https://th.bing.com/th/id/OIP.nXGgKyuQE8qSzdoOlmfNugAAAA?w=251&h=159&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"alt="php.jpg" className="parallax-img" data-speed="0.03" />
       </div>
 
-      {/* Overlay content */}
+      {/* CONTENT */}
       <div className="home-content">
-        <h1 className="display-4 fw-bold">Welcome to My Portfolio</h1>
-        <p className="lead">
-          I’m a Web Developer skilled in React, Node.js, Bootstrap, PHP and more.
-        </p>
+        <h1>Creative Web Developer</h1>
+        <p>I build modern websites using (Html,css,javascript), React, PHP, Tailwind, Nodejs, and more.</p>
       </div>
     </section>
   );
 }
-
-export default Home;

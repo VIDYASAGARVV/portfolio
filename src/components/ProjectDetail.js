@@ -30,9 +30,12 @@ function ProjectDetail() {
       title: "Dynamic Websites",
       description: "Detailed info about the Dynamic Websites project (PHP).",
       links: [
-        { label: "Demo 1", url: "https://prdvandco.com/" },
-        { label: "Demo 2", url: "https://reenterprise.co.in/" },
-        { label: "Demo 3", url: "https://blue-stork-220806.hostingersite.com/" },
+        { label: "CA Company Website", url: "https://prdvandco.com/" },
+        { label: "Solar Website", url: "https://reenterprise.co.in/" },
+        { label: "Mattress Website", url: "https://orthosleepy.in/" },
+                { label: "Rajat tea Website", url: "https://orthosleepy.in/" },
+        { label: "Odisha Reale-states", url: "https://odisharealestates.com/index.htm" },
+
       ],
     },
    
@@ -42,7 +45,7 @@ function ProjectDetail() {
       title: "CRM Software",
       description: "Detailed info about the CRM Software project.",
       links: [
-        { label: "Demo 1", url: "https://webnsoftwaretest1.online/index.php" },
+        { label: "Construction Labour Work", url: "https://staging.chhattisgarhyellowpages.com/" },
         // { label: "GitHub Repo", url: "https://github.com/username/project2" },
       ],
     },

@@ -10,11 +10,11 @@ function Projects() {
   };
 
   const projectList = [
-    { id: 1, title: "Reactjs Frontend", desc: "Modern frontend apps with React.js" },
-        { id: 5, title: "Nextjs Frontend", desc: "Modern frontend apps with Next.js" },
+    { id: 1, title: "Reactjs Frontend(Ai)", desc: "Modern frontend apps with React.js" },
+        { id: 5, title: "Nextjs Frontend(Ai)", desc: "Modern frontend apps with Next.js" },
 
-    { id: 3, title: "CRM Software", desc: "Business management software" },
-        { id: 2, title: "Dynamic Websites", desc: "Full-stack dynamic PHP websites" },
+    { id: 3, title: "CRM Software (individual)", desc: "Business management software" },
+        { id: 2, title: "Dynamic Websites (individual)", desc: "Full-stack dynamic PHP websites" },
 
     { id: 4, title: "NXTwave Internship", desc: "Learning & building projects" },
   ];
