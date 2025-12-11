@@ -42,6 +42,8 @@ export default function Home() {
         <img src="https://reactnative.dev/img/logo-og.png" className="parallax-img" data-speed="0.04" alt="react.jpg" />
         <img src="https://www.kindpng.com/picc/m/171-1718210_html-dialog-element-taking-full-advantage-of-javascript.png" alt="js.jpg" className="parallax-img" data-speed="0.06" />
         <img src="https://th.bing.com/th/id/OIP.nXGgKyuQE8qSzdoOlmfNugAAAA?w=251&h=159&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"alt="php.jpg" className="parallax-img" data-speed="0.03" />
+                <img src="https://th.bing.com/th/id/OIP.mdLT2ZK_3OlDwK2R-Q2UlQHaGp?w=180&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"alt="php.jpg" className="parallax-img" data-speed="0.03" />
+
       </div>
 
       {/* CONTENT */}

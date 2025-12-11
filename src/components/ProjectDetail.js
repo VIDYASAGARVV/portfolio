@@ -45,7 +45,7 @@ function ProjectDetail() {
       title: "CRM Software",
       description: "Detailed info about the CRM Software project.",
       links: [
-        { label: "Construction Labour Work", url: "https://staging.chhattisgarhyellowpages.com/" },
+        { label: "Construction Labour (Php)", url: "https://staging.chhattisgarhyellowpages.com/" },
         // { label: "GitHub Repo", url: "https://github.com/username/project2" },
       ],
     },
