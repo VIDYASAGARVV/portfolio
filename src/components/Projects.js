@@ -13,8 +13,8 @@ function Projects() {
     { id: 1, title: "Reactjs Frontend(Ai)", desc: "Modern frontend apps with React.js" },
         { id: 5, title: "Nextjs Frontend(Ai)", desc: "Modern frontend apps with Next.js" },
 
-    { id: 3, title: "CRM Software (individual)", desc: "Business management software" },
-        { id: 2, title: "Dynamic Websites (individual)", desc: "Full-stack dynamic PHP websites" },
+    { id: 3, title: "CRM Software (independently)", desc: "Business management software" },
+        { id: 2, title: "Dynamic Websites (independently)", desc: "Full-stack dynamic PHP websites" },
 
     { id: 4, title: "NXTwave Internship", desc: "Learning & building projects" },
   ];
